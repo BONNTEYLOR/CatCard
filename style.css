@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #4501ff56;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgba(14, 214, 253, 0.622);
+}
+
+.box {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1%;
+  padding: 1%;
+  height: max-content;
+  justify-content: center;
+}
+
+.container-card {
+  width: 18%;
+  height: 30rem;
+  padding: 5px;
+  background: #69fffa82;
+  border: groove 2px rgb(17, 0, 255);
+  border-radius: 15px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-character {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  height: 50%;
+  object-fit: contain;
+}
+
+.name-character {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #04bafcde;
+  text-shadow: 0 0 10px #0116f997;
+}
+
+.quote-character {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  color: #000000;
+}
+
+button {
+  padding: 15px 30px;
+  background: #0055ffc2;
+  border: none;
+  border-radius: 15px;
+  color: #0000f7e2;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover,
+button:focus {
+  background: #0357e6b4;
+  color: #ffffff;
+  font-weight: 800;
+}
